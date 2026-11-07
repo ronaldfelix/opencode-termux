@@ -77,7 +77,7 @@ Se compilo esta version con ayuda de opencode-termux 2.0.22 por falta de lanzami
 1. Descargá el instalador que acompaña a este archivo.
 2. Instalalo con el gestor de paquetes de Termux (`dpkg -i` apuntando al
    archivo descargado).
-3. Escribí `opencode` para comenzar.
+3. Escribir `opencode` para comenzar.
 
 > Si ya tenés otra versión instalada, el instalador la reemplaza. Guardá una
 > copia del ejecutable anterior si querés volver atrás.
