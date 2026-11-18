@@ -20,7 +20,7 @@ Nota: Se compilo esta version con ayuda de opencode-termux 2.x por falta de lanz
 | Arquitectura | ARM64 (aarch64) |
 | Requisitos | Android 9 o superior + Termux |
 | Instalador | ~56 MB |
-| Fecha de compilación | 16 de noviembre de 2026 |
+| Fecha de compilación | 17 de noviembre de 2026 |
 | Base del proyecto | [`opencode-termux`](https://github.com/Hope2333/opencode-termux) de **Hope2333** |
 
 ---
