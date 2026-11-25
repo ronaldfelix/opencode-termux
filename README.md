@@ -4,7 +4,7 @@ Compilación nativa para Android · ARM64
 
 Testeado en un MI10T PRO android 12 y en un POCO X7 PRO android 16 podría tener algunos bugs en otros no testeados
 
-OpenCode es un asistente de programación con IA que vive en la terminal. Esta es una compilación de la versión 2.3.0 pensada para Termux, con la interfaz completa y funcionando directamente sobre Android, sin capas de emulación ni dependencias externas.
+OpenCode es un asistente de programación con IA que vive en la terminal. Esta es una compilación de la versión 2.4.1 pensada para Termux, con la interfaz completa y funcionando directamente sobre Android, sin capas de emulación ni dependencias externas.
 
 Nota: Se compilo esta version con ayuda de opencode-termux 2.x por falta de lanzamiento de versiones 2.x por parte de Hope2333, ya que las ultimas versiones tienes novedades interesantes como la opción /goal
 
@@ -14,13 +14,13 @@ Nota: Se compilo esta version con ayuda de opencode-termux 2.x por falta de lanz
 
 | | |
 |---|---|
-| Versión | OpenCode **2.3.2** |
+| Versión | OpenCode **2.4.1** |
 | Línea | Nativa (Android / Bionic) |
 | Interfaz | OpenTUI **0.8.4** |
 | Arquitectura | ARM64 (aarch64) |
 | Requisitos | Android 9 o superior + Termux |
-| Instalador | ~56 MB |
-| Fecha de compilación | 17 de noviembre de 2026 |
+| Instalador | ~59 MB |
+| Fecha de compilación | 24 de noviembre de 2026 |
 | Base del proyecto | [`opencode-termux`](https://github.com/Hope2333/opencode-termux) de **Hope2333** |
 
 ---
@@ -32,7 +32,8 @@ Nota: Se compilo esta version con ayuda de opencode-termux 2.x por falta de lanz
 | 2.2.5 | OpenTUI 0.8.0 | 30/10/2026 | 55,7 MB |
 | 2.2.7 | OpenTUI 0.8.1 | 11/11/2026 | 56,5 MB |
 | 2.3.0 | OpenTUI 0.8.4 | 16/11/2026 | 56,5 MB |
-| **2.3.2** | **OpenTUI 0.8.4** | **17/11/2026** | **56,5 MB** |
+| 2.3.2 | OpenTUI 0.8.4 | 17/11/2026 | 56,5 MB |
+| **2.4.1** | **OpenTUI 0.9.4** | **24/11/2026** | **59 MB** |
 
 
 ---
@@ -41,10 +42,10 @@ Nota: Se compilo esta version con ayuda de opencode-termux 2.x por falta de lanz
 
 | Tecnología | Para qué se usó |
 |---|---|
-| **OpenCode 2.3.2** | La aplicación en sí: su código oficial es el punto de partida. |
-| **OpenTUI 0.8.4** | La biblioteca que dibuja la interfaz de terminal (paneles, colores, entrada). |
+| **OpenCode 2.4.1** | La aplicación en sí: su código oficial es el punto de partida. |
+| **OpenTUI 0.9.4** | La biblioteca que dibuja la interfaz de terminal (paneles, colores, entrada). |
 | **Bun** | El motor de ejecución con el que se arma el programa final para Android. |
-| **Zig** | Compiló la biblioteca de interfaz para Android, sin necesidad del kit oficial de desarrollo (NDK). |
+| **Zig 0.17.1** | Compiló la biblioteca de interfaz para Android, sin necesidad del kit oficial de desarrollo (NDK). |
 | **Bionic** | La biblioteca base propia de Android, en lugar de la de Linux de escritorio. |
 | **Termux + Clang** | El entorno donde se construyó todo y el complemento de compatibilidad. |
 | **opencode-termux (Hope2333)** | La base de scripts y empaquetado que hace posible compilar OpenCode para Termux. |
@@ -62,11 +63,11 @@ Nota: Se compilo esta version con ayuda de opencode-termux 2.x por falta de lanz
 ## Instalación
 
 1. Descargar el instalador que acompaña a este archivo
-   (`opencode_2.3.2_aarch64.deb`).
+   (`opencode_2.4.1_aarch64.deb`).
 2. Instalalo con el gestor de paquetes de Termux:
 
    ```bash
-   dpkg -i opencode_2.3.2_aarch64.deb
+   dpkg -i opencode_2.4.1_aarch64.deb
    ```
 
 3. Escribir `opencode` para comenzar.
